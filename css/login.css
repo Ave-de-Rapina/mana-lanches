@@ -65,6 +65,20 @@ body {
   input[type="submit"]:hover {
     background-color: #a17708;
   }
+
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-container a {
+    color: rgb(255, 153, 0);
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
   
   .rodape {
     position: fixed;

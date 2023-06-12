@@ -7,7 +7,6 @@
 }
 
 .image-logo {
-    background-image: url(../images/logo.png);
     width: 100px;
     height: 60px;
     background-size: cover;
@@ -100,7 +99,7 @@ h4 {
 
 .imagem-produto01 {
     margin-left: 3%;
-    background-image: url(../images/xBaconBatataCoca.png);
+    background-image: url(./images/xBaconBatataCoca.png);
     width: 120px;
     height: 90px;
     flex: 1 160px;
