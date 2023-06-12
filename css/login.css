@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Login Container Styles */
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  /* Logo Container Styles */
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-container img {
+    max-width: 200px;
+  }
+  
+  /* Form Styles */
+  form {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #b68e09;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #a17708;
+  }
+  
+  .rodape {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+ }
+
+ .rodape ul {
+    width: 100%;
+    display: flex;
+    background-color: #b68e09;
+    height: 55px;
+ }
+
+ .rodape ul li {
+    box-shadow: 1px 1px 1px .5px rgb(221, 221, 221);
+    display: flex;
+    flex: 1;
+    align-items: center;
+ }
+
+ .rodape ul li a {
+    flex: 1;
+    text-align: center;
+
+ }
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .login-container {
+      padding: 15px;
+    }
+  
+    .logo-container img {
+      max-width: 150px;
+    }
+  }
+  
