@@ -47,10 +47,13 @@
     display: flex;
 }
 
+/* Global Styles */
 body {
-    width: 100%;
-    height: auto;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
 
 .promocao{
     display: flex;
