@@ -66,13 +66,13 @@ body {
     background-color: #a17708;
   }
 
-  p {
+  .login-container p {
     text-align: center;
     margin-top: 20px;
   }
   
-  .login-container a {
-    color: rgb(255, 153, 0);
+  .login-container p a {
+    color: #a17708;
     text-decoration: none;
   }
   
