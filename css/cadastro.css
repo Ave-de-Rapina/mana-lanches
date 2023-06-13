@@ -5,15 +5,16 @@ body {
     padding: 0;
     color: #333;
   }
-  
+  .logo-container{
+    margin-top: 35px;
+  }
   /* Title Styles */
   h1 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: #d4af37;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   
   /* Form Styles */

@@ -10,22 +10,14 @@ body {
   #sobre h2 {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 28px;
     font-weight: bold;
-    color: #d4af37;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
   
   /* Image Styles */
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-  }
+
   
   /* Content Styles */
   #sobre {

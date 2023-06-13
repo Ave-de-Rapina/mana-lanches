@@ -7,6 +7,10 @@ body {
     color: #333;
   }
   
+  .logo-container{
+    margin-top: 35px;
+  }
+
   h1 {
     width: 100%;
     text-align: center;
@@ -14,6 +18,7 @@ body {
     margin-top: 10%;
     font-size: 24px;
     font-weight: bold;
+    mar
     margin-bottom: 20px;
   }
   
@@ -85,11 +90,15 @@ body {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #b68e09;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+  }
+
+ .checkout-button:hover {
+    background-color: #a17708;
   }
   .rodape {
     position: fixed;
