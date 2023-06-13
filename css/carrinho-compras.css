@@ -4,6 +4,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    color: #333;
   }
   
   h1 {
@@ -95,13 +96,17 @@ body {
     width: 100%;
     bottom: 0;
     left: 0;
+    background-color: #b68e09;
  }
 
  .rodape ul {
     display: flex;
-    background-color: #b68e09;
-    width: 100%;
     height: 55px;
+ }
+
+ ul .menu-carrinho {
+    background-color: #5e4b00;
+    color: white;
  }
 
  .rodape ul li {

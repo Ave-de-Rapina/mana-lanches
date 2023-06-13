@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #333;
   }
   
   /* Login Container Styles */
@@ -85,14 +86,17 @@ body {
     width: 100%;
     bottom: 0;
     left: 0;
-
+    background-color: #b68e09;
  }
 
  .rodape ul {
-    width: 100%;
     display: flex;
-    background-color: #b68e09;
     height: 55px;
+ }
+
+ ul .menu-cadastro {
+    background-color: #5e4b00;
+    color: white;
  }
 
  .rodape ul li {
@@ -105,7 +109,6 @@ body {
  .rodape ul li a {
     flex: 1;
     text-align: center;
-
  }
   /* Responsive Styles */
   @media screen and (max-width: 600px) {

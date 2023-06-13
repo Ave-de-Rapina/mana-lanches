@@ -57,12 +57,17 @@ body {
     width: 100%;
     bottom: 0;
     left: 0;
+    background-color: #b68e09;
  }
 
  .rodape ul {
     display: flex;
-    background-color: #b68e09;
     height: 55px;
+ }
+
+ ul .menu-informacoes {
+    background-color: #5e4b00;
+    color: white;
  }
 
  .rodape ul li {
