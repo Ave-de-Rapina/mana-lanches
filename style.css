@@ -112,7 +112,8 @@ h4 {
     margin-left: 3%;
     margin-right: 3%;
     display: flex;
-    flex-direction: column;   
+    flex-wrap: wrap-reverse;
+
 }
 
 .titulo {
@@ -124,25 +125,20 @@ h4 {
     color: #3e3e3e;
 }
 
-.descricao {
-    margin-top: 5%;
-    text-align: justify;
-    font-size: .75rem;
-    line-height: 1rem;
-    font-weight: lighter;
-    color: #717171;
+.add-icone {
+    margin-right: 5%;
+    height: 40px;
+    width: 40px;
 }
 
  .preco {
-    width: 100%;
-    height: 100%;
-    padding-right: 10%;
-    margin-top: 5%;
-    text-align:end;
-    font-size: 1rem;
-    line-height: 1.25rem;
+    flex: 1;
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: 1.100rem;
     color: #3e3e3e;  
  }
+
  .rodape {
     position: fixed;
     width: 100%;
@@ -153,8 +149,7 @@ h4 {
 
  .rodape ul {
     display: flex;
-   
-    height: 55px;
+    height: 65px;
  }
 
  ul .principal {
@@ -170,6 +165,8 @@ h4 {
  }
 
  .rodape ul li a {
+    height: 35px;
+    width: 35px;
     flex: 1;
     text-align: center;
  }
