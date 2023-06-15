@@ -93,6 +93,8 @@ h4 {
     margin: 5% 0% 5% 0% ;
 }
 
+  /* Produto Styles */
+
 .produto01-container {
     margin-top: 1%;
     display: flex;
@@ -114,7 +116,6 @@ h4 {
     margin-left: 3%;
     display: flex;
     flex-wrap: wrap-reverse;
-
 }
 
 .titulo {
@@ -133,39 +134,13 @@ h4 {
  .preco {
     flex: 1;
     margin-top: 8%;
-    font-size: 1.100rem;
+    font-size: 1rem;
     color: #3e3e3e;  
  }
 
- .rodape {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: #b68e09;
- }
+   /*  Menu Style */
 
- .rodape ul {
-    display: flex;
-    height: 55px;
- }
-
- ul .principal {
+ .principal-menu {
     background-color: #5e4b00;
-    color: white;
- }
-
- .rodape ul li {
-    box-shadow: 1px 1px 1px .5px rgb(221, 221, 221);
-    display: flex;
-    flex: 1;
-    align-items: center;
- }
-
- .rodape ul li a {
-    height: 25px;
-    width: 25px;
-    flex: 1;
-    text-align: center;
  }
 }

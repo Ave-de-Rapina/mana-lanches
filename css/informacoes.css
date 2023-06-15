@@ -43,35 +43,10 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Footer Styles */
-  .rodape {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: #b68e09;
- }
+  /* Menu Styles */
 
- .rodape ul {
-    display: flex;
-    height: 55px;
- }
-
- ul .menu-informacoes {
+ ul .informacoes-menu {
     background-color: #5e4b00;
-    color: white;
- }
-
- .rodape ul li {
-    box-shadow: 1px 1px 1px .5px rgb(221, 221, 221);
-    display: flex;
-    flex: 1;
-    align-items: center;
- }
-
- .rodape ul li a {
-    flex: 1;
-    text-align: center;
  }
   
   /* Responsive Styles 
