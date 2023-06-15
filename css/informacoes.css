@@ -45,8 +45,8 @@ body {
   
   /* Menu Styles */
 
- ul .informacoes-menu {
-    background-color: #5e4b00;
+  .informacoes-menu {
+    background-color: white;
  }
   
   /* Responsive Styles 
